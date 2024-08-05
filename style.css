@@ -1,0 +1,652 @@
+/*body*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*body end*/
+
+
+
+/*navbar*/
+
+.navbar {
+    top: 0;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 50PX;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+.nav-links a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-buttons .btn {
+    border: none;
+    padding: 15px 15px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.nav-buttons .black-btn {
+    background-color: black;
+    border: 2px solid white;
+}
+
+.nav-buttons .red-btn {
+    background-color: red;
+    border: 2px solid transparent;
+}
+
+/*navbar end*/
+
+
+
+.hero {
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.product-brand {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    height: 520px;
+}
+
+.product-content h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.highlight {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.product-content h2 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.product-content p {
+    margin-bottom: 40px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.product-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order-btn {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    padding: 15px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+
+
+
+.franchises {
+    background-color: rgb(27, 26, 26);
+    padding: 20px 20px;
+}
+
+.franchise-header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.franchise-header h2 {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.franchise-header p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    color: white;
+}
+
+.franchise-content {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.franchise-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.franchise-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.franchise-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.franchise-item:nth-child(2) {
+    flex-direction: row;
+}
+
+.franchise-text {
+    max-width: 400px;
+}
+
+.franchise-item img {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.franchise-text h6 {
+    font-size: 1.2em;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.franchise-text h3 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.franchise-text h5 {
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.directions-btn {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    border: 2px solid white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.directions-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+
+
+
+.franchise-second {
+    background-color: black;
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+}
+
+.franchise-second h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.franchise-second h2 {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.franchise-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.franchise-gallery .franchise-card {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.franchise-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.franchise-info h6 {
+    font-size: 1.2em;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.franchise-info h4 {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.franchise-info h5 {
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.directions-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.directions-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+
+
+
+.franchise-home {
+    background-color: rgb(27, 26, 26);
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+}
+
+.franchise-home h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.franchise-home h2 {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.franchise-home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.franchise-home-img img {
+    width: 650px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.franchise-home-info {
+    max-width: 500px;
+    text-align: left;
+}
+
+.franchise-home-info h6 {
+    font-size: 1.2em;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.franchise-home-info h4 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.franchise-home-info h5 {
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.franchise-home-btn {
+    background-color: rgb(65, 150, 65);
+    color: white;
+    border: 2px solid rgb(65, 150, 65);
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.franchise-home-btn:hover {
+    background-color: white;
+    color: rgb(65, 150, 65);
+    border: 2px solid rgb(65, 150, 65);
+}
+
+
+
+.opening-soon {
+    background-color: black;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.opening-soon h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.opening-soon h2 {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.opening-soon-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.opening-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    height: 180px;
+}
+
+.opening-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.opening-soon-heading {
+    color: red;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.opening-card h3 {
+    font-size: 1.2em;
+    color: black;
+    margin: 10px 0;
+}
+
+.opening-soon-gallery .opening-card:nth-last-child(-n+1) {
+    grid-column: span 3;
+}
+#opening-highlight{
+    color: black;
+}
+
+
+
+.social-feed {
+    background-color: black;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.social-feed h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.social-feed-gallery {
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 0 20px;
+    position: relative;
+    cursor: grab;
+}
+
+
+
+
+.social-feed-gallery {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.social-feed-gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-feed-gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.footer {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 40px 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.footer-column {
+    max-width: 300px;
+    margin-left: 60px;
+}
+
+
+.footer-logo img {
+    margin-bottom: 10px;
+    height: 75px;
+    width: 150px;
+}
+
+.footer h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: rgb(224, 224, 215);
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 15px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(224, 224, 215);
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    font-size: 2em;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.social-icon.fab.fa-facebook-square {
+    color: #dd0000;
+}
+
+.social-icon.fab.fa-instagram {
+    color: #dd0000;
+}
+
+.social-icon.fab.fa-twitter-square {
+    color: #dd0000;
+}
+
+.footer-bottom {
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+hr {
+    grid-column: span 4;
+
+    border: none;
+    border-top: 1px solid white;
+    margin: 20px 0;
+}
+
